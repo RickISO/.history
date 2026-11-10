@@ -1176,6 +1176,16 @@
 		)
 		(uuid "b9c3c591-6b8c-43e0-885b-bfa80f6c3e8c")
 	)
+	(text "bulk capacitors/current spike dampner\n"
+		(exclude_from_sim no)
+		(at 113.284 29.972 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d2ded429-3abd-4fe6-94e3-951c696060b1")
+	)
 	(junction
 		(at 105.41 41.91)
 		(diameter 0)
