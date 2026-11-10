@@ -1121,16 +1121,10 @@
 		)
 	)
 	(junction
-		(at 109.22 40.64)
+		(at 105.41 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "087969e3-ce1c-4ef6-a301-052544735eb3")
-	)
-	(junction
-		(at 109.22 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c2c76a1-8c44-4d35-be3a-d0b94a5bd375")
 	)
 	(junction
 		(at 77.47 34.29)
@@ -1143,6 +1137,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b986dbcf-25ef-4c6f-9dc4-131d213d88b0")
+	)
+	(wire
+		(pts
+			(xy 86.36 33.02) (xy 86.36 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04f96670-9300-4f6c-aff7-710b3ad57b46")
 	)
 	(wire
 		(pts
@@ -1196,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 33.02) (xy 109.22 33.02)
+			(xy 83.82 33.02) (xy 86.36 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1206,7 +1210,17 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 40.64) (xy 109.22 40.64)
+			(xy 83.82 33.02) (xy 88.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "572aa012-c882-49ec-a8b1-266cc5714429")
+	)
+	(wire
+		(pts
+			(xy 88.9 41.91) (xy 105.41 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1216,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 40.64) (xy 123.19 40.64)
+			(xy 105.41 41.91) (xy 119.38 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1256,13 +1270,23 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 33.02) (xy 123.19 33.02)
+			(xy 105.41 34.29) (xy 119.38 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b68d1d8d-66c6-47a9-90ab-060cad7238c5")
+	)
+	(wire
+		(pts
+			(xy 86.36 34.29) (xy 105.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b6f623-f833-481f-b8f4-11d4ba633fa6")
 	)
 	(label "GND"
 		(at 57.15 29.21 0)
@@ -1315,7 +1339,7 @@
 		(uuid "e907376d-7454-4b99-859f-69ba9942d06f")
 	)
 	(label "VBATSW"
-		(at 92.71 33.02 0)
+		(at 83.82 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1326,7 +1350,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 123.19 36.83 0)
+		(at 119.38 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1337,7 +1361,7 @@
 		(fields_autoplaced yes)
 		(uuid "190704a5-be21-4d6a-8485-5b591725b878")
 		(property "Reference" "C3"
-			(at 127 35.5599 0)
+			(at 123.19 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1348,7 +1372,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 127 38.0999 0)
+			(at 123.19 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1359,7 +1383,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.1552 40.64 0)
+			(at 120.3452 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1370,7 +1394,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 36.83 0)
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1381,7 +1405,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 123.19 36.83 0)
+			(at 119.38 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1605,7 +1629,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 92.71 36.83 270)
+		(at 88.9 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1616,7 +1640,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e5ee6fc-e406-47dd-857b-6a8cb9bec496")
 		(property "Reference" "D1"
-			(at 95.25 35.5599 90)
+			(at 91.44 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1627,7 +1651,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 95.25 38.0999 90)
+			(at 91.44 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1638,7 +1662,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 88.265 36.83 0)
+			(at 84.455 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1649,7 +1673,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 92.71 36.83 0)
+			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1660,7 +1684,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 92.71 36.83 0)
+			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1671,7 +1695,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 92.71 36.83 0)
+			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1682,7 +1706,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 92.71 36.83 0)
+			(at 88.9 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1709,7 +1733,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 36.83 0)
+		(at 105.41 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1720,7 +1744,7 @@
 		(fields_autoplaced yes)
 		(uuid "50dbbfd0-e5c6-463d-843f-e5cb2a20bbe4")
 		(property "Reference" "C2"
-			(at 113.03 35.5599 0)
+			(at 109.22 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1731,7 +1755,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 113.03 38.0999 0)
+			(at 109.22 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1742,7 +1766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.1852 40.64 0)
+			(at 106.3752 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1753,7 +1777,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 36.83 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 36.83 0)
+			(at 105.41 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
