@@ -624,12 +624,6 @@
 		)
 	)
 	(junction
-		(at 68.58 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f1fdb37-3053-4c2b-a4bd-3c8065543a0d")
-	)
-	(junction
 		(at 71.12 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -637,23 +631,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 26.67) (xy 68.58 26.67)
+			(xy 57.15 26.67) (xy 71.12 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a395398-a650-4977-b876-ce6036afb2a6")
-	)
-	(wire
-		(pts
-			(xy 57.15 26.67) (xy 68.58 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6ff9c0-3d27-4fb4-8471-5d449c38907a")
 	)
 	(wire
 		(pts
@@ -674,16 +658,6 @@
 			(type default)
 		)
 		(uuid "6c723064-6045-4ef2-b7d7-06f3fc6df734")
-	)
-	(wire
-		(pts
-			(xy 68.58 21.59) (xy 68.58 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da1d78fb-8285-4be3-9ae1-56d1e375d9b3")
 	)
 	(label "GND"
 		(at 57.15 29.21 0)
@@ -714,16 +688,6 @@
 			(justify left bottom)
 		)
 		(uuid "e907376d-7454-4b99-859f-69ba9942d06f")
-	)
-	(label "VBAT"
-		(at 68.58 21.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe8f5408-f946-4dbe-baf5-dfdd9552d790")
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
