@@ -1302,6 +1302,16 @@
 		)
 		(uuid "dc0b681e-ddbc-4c2e-bea0-bffa6152b3f0")
 	)
+	(label "ESCs"
+		(at 129.54 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11740556-3b9a-4b99-8de8-2afce0af20a2")
+	)
 	(label "GND"
 		(at 57.15 29.21 0)
 		(effects
