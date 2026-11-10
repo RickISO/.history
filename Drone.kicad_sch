@@ -1133,6 +1133,18 @@
 		(uuid "ba5397aa-69e7-4015-8721-afbb4d3bf7cc")
 	)
 	(rectangle
+		(start 87.63 31.75)
+		(end 133.35 44.45)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d63f9e9b-111f-4187-a64c-27e385ad2efb")
+	)
+	(rectangle
 		(start 57.15 17.78)
 		(end 86.36 43.18)
 		(stroke
