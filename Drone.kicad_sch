@@ -1154,6 +1154,16 @@
 		)
 		(uuid "5884ff17-a30f-4665-aba1-9ae07b3c894b")
 	)
+	(text "Soft start\n"
+		(exclude_from_sim no)
+		(at 66.04 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b9c3c591-6b8c-43e0-885b-bfa80f6c3e8c")
+	)
 	(junction
 		(at 105.41 41.91)
 		(diameter 0)
