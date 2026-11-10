@@ -490,6 +490,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 57.15 26.67) (xy 68.58 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6ff9c0-3d27-4fb4-8471-5d449c38907a")
+	)
+	(wire
+		(pts
+			(xy 68.58 26.67) (xy 68.58 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1defb02c-0192-4172-a858-fb169a3348de")
+	)
 	(label "GND"
 		(at 57.15 29.21 0)
 		(effects
