@@ -987,6 +987,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 22.86) (xy 77.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662d8b29-7691-46f6-a832-ff3d987bf9a9")
+	)
+	(wire
+		(pts
 			(xy 71.12 25.4) (xy 71.12 26.67)
 		)
 		(stroke
@@ -994,6 +1004,16 @@
 			(type default)
 		)
 		(uuid "6c723064-6045-4ef2-b7d7-06f3fc6df734")
+	)
+	(wire
+		(pts
+			(xy 71.12 34.29) (xy 77.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d11ab40-6c58-4e43-a24d-51e7f9d1686e")
 	)
 	(label "GND"
 		(at 57.15 29.21 0)
