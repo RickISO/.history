@@ -872,6 +872,16 @@
 		)
 		(uuid "3b75972b-3e33-4dc4-9e94-9164605e2928")
 	)
+	(label "VBAT"
+		(at 82.55 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bb055c0-7fc3-445b-8ad9-a28c9701d2d6")
+	)
 	(label "GND"
 		(at 16.51 20.32 0)
 		(effects
