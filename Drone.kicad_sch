@@ -209,7 +209,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
+		(property "Value" "XT30"
 			(at 52.705 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
