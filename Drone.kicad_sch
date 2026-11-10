@@ -1133,12 +1133,6 @@
 		(uuid "1c31e783-7de0-4056-b601-eba3841fb03c")
 	)
 	(junction
-		(at 88.9 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5246aa6c-a312-4bfe-a750-0aee197083aa")
-	)
-	(junction
 		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1262,16 +1256,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 34.29) (xy 88.9 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8302309-7f3e-4fee-970f-b94087c6bdf3")
-	)
-	(wire
-		(pts
 			(xy 88.9 34.29) (xy 105.41 34.29)
 		)
 		(stroke
@@ -1331,7 +1315,7 @@
 		(uuid "e907376d-7454-4b99-859f-69ba9942d06f")
 	)
 	(label "VBATSW"
-		(at 87.63 34.29 0)
+		(at 88.9 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
