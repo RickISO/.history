@@ -1027,7 +1027,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 85.09 26.67 0)
+		(at 82.55 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1038,7 +1038,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a04abcc-8e4a-4966-8190-b22d0089c8a4")
 		(property "Reference" "Q1"
-			(at 91.44 25.3999 0)
+			(at 88.9 21.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1049,7 +1049,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 91.44 27.9399 0)
+			(at 88.9 24.1299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1060,7 +1060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 24.13 0)
+			(at 87.63 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1071,7 +1071,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 85.09 39.37 0)
+			(at 82.55 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1082,7 +1082,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 85.09 26.67 0)
+			(at 82.55 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1093,7 +1093,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 85.09 43.815 0)
+			(at 82.55 40.005 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1104,7 +1104,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 85.09 45.72 0)
+			(at 82.55 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1115,7 +1115,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 85.09 41.91 0)
+			(at 82.55 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
