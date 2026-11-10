@@ -520,6 +520,16 @@
 		)
 		(uuid "c4e28e4f-5d42-4cbb-b88c-da710ea6b03e")
 	)
+	(label "VBAT"
+		(at 68.58 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe8f5408-f946-4dbe-baf5-dfdd9552d790")
+	)
 	(symbol
 		(lib_id "Device:D")
 		(at 68.58 30.48 270)
