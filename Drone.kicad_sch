@@ -1255,7 +1255,7 @@
 		(dnp no)
 		(uuid "39ee5906-c175-4c83-9406-9e43df920602")
 		(property "Reference" "C1"
-			(at 74.93 29.2099 0)
+			(at 64.516 30.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
