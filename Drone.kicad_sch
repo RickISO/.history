@@ -977,6 +977,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 21.59) (xy 72.39 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e2e959-c1cd-4643-affb-7268ed409c0a")
+	)
+	(wire
+		(pts
 			(xy 77.47 30.48) (xy 77.47 34.29)
 		)
 		(stroke
@@ -1024,6 +1034,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b75972b-3e33-4dc4-9e94-9164605e2928")
+	)
+	(label "VBATSW"
+		(at 66.04 21.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61544710-0a44-4a22-9367-c08743ceef4f")
 	)
 	(label "GND"
 		(at 16.51 20.32 0)
