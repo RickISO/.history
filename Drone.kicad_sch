@@ -500,16 +500,6 @@
 		)
 		(uuid "0a6ff9c0-3d27-4fb4-8471-5d449c38907a")
 	)
-	(wire
-		(pts
-			(xy 68.58 26.67) (xy 68.58 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1defb02c-0192-4172-a858-fb169a3348de")
-	)
 	(label "GND"
 		(at 57.15 29.21 0)
 		(effects
@@ -542,7 +532,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 68.58 29.21 270)
+		(at 68.58 30.48 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -553,7 +543,7 @@
 		(fields_autoplaced yes)
 		(uuid "611d9d02-d8de-4dc7-a893-824e7d23b9da")
 		(property "Reference" "D1"
-			(at 71.12 27.9399 90)
+			(at 71.12 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -564,7 +554,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 71.12 30.4799 90)
+			(at 71.12 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -575,7 +565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 29.21 0)
+			(at 68.58 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -586,7 +576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 29.21 0)
+			(at 68.58 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -597,7 +587,7 @@
 			)
 		)
 		(property "Description" "Diode"
-			(at 68.58 29.21 0)
+			(at 68.58 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -608,7 +598,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 68.58 29.21 0)
+			(at 68.58 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -619,7 +609,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 29.21 0)
+			(at 68.58 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
