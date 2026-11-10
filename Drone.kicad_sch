@@ -1139,6 +1139,12 @@
 		(uuid "1c31e783-7de0-4056-b601-eba3841fb03c")
 	)
 	(junction
+		(at 119.38 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "212b1d10-b95a-4c01-8c1c-363d47bf6766")
+	)
+	(junction
 		(at 77.47 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1254,6 +1260,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 41.91) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97bb845d-bbdc-4725-8279-566d18db9607")
+	)
+	(wire
+		(pts
 			(xy 58.42 29.21) (xy 58.42 41.91)
 		)
 		(stroke
@@ -1271,6 +1287,16 @@
 			(type default)
 		)
 		(uuid "9d11ab40-6c58-4e43-a24d-51e7f9d1686e")
+	)
+	(wire
+		(pts
+			(xy 129.54 34.29) (xy 129.54 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe8165a-292e-4705-a894-8a508d362f12")
 	)
 	(wire
 		(pts
@@ -1301,6 +1327,16 @@
 			(type default)
 		)
 		(uuid "dc0b681e-ddbc-4c2e-bea0-bffa6152b3f0")
+	)
+	(wire
+		(pts
+			(xy 119.38 34.29) (xy 129.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f076d3cc-1b50-4c62-ad5f-1b35833270cb")
 	)
 	(label "ESCs"
 		(at 129.54 36.83 0)
