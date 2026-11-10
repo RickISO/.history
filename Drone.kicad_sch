@@ -1132,6 +1132,16 @@
 		)
 		(uuid "ba5397aa-69e7-4015-8721-afbb4d3bf7cc")
 	)
+	(text "Anti-Spark y regulacion de ESCs aunque nose si vamos a hacer uno, usar uno comercial o q onda\n"
+		(exclude_from_sim no)
+		(at 78.232 49.276 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5884ff17-a30f-4665-aba1-9ae07b3c894b")
+	)
 	(junction
 		(at 105.41 41.91)
 		(diameter 0)
