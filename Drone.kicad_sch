@@ -1130,7 +1130,13 @@
 		(at 105.41 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0f58d08e-8264-4086-a788-025320b70589")
+		(uuid "1c31e783-7de0-4056-b601-eba3841fb03c")
+	)
+	(junction
+		(at 88.9 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5246aa6c-a312-4bfe-a750-0aee197083aa")
 	)
 	(junction
 		(at 77.47 34.29)
@@ -1196,16 +1202,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 34.29) (xy 105.41 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "423ed157-755b-48b7-b79b-e2fd3bf1aaf8")
-	)
-	(wire
-		(pts
 			(xy 88.9 41.91) (xy 105.41 41.91)
 		)
 		(stroke
@@ -1264,6 +1260,26 @@
 		)
 		(uuid "b68d1d8d-66c6-47a9-90ab-060cad7238c5")
 	)
+	(wire
+		(pts
+			(xy 87.63 34.29) (xy 88.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8302309-7f3e-4fee-970f-b94087c6bdf3")
+	)
+	(wire
+		(pts
+			(xy 88.9 34.29) (xy 105.41 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0b681e-ddbc-4c2e-bea0-bffa6152b3f0")
+	)
 	(label "GND"
 		(at 57.15 29.21 0)
 		(effects
@@ -1315,7 +1331,7 @@
 		(uuid "e907376d-7454-4b99-859f-69ba9942d06f")
 	)
 	(label "VBATSW"
-		(at 88.9 34.29 0)
+		(at 87.63 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
