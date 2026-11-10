@@ -934,6 +934,12 @@
 		)
 	)
 	(junction
+		(at 77.47 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773c808b-6c88-4d34-a432-62077d7ed998")
+	)
+	(junction
 		(at 71.12 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1248,7 +1254,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 81.28 34.29 0)
+		(at 77.47 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1259,7 +1265,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d2a543a-a7c5-498d-86b7-1ec6bb4ea9f9")
 		(property "Reference" "R1"
-			(at 83.82 33.0199 0)
+			(at 80.01 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1270,7 +1276,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 83.82 35.5599 0)
+			(at 80.01 39.3699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1281,7 +1287,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 79.502 34.29 90)
+			(at 75.692 38.1 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,7 +1298,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 34.29 0)
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1303,7 +1309,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 81.28 34.29 0)
+			(at 77.47 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
