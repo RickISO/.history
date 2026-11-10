@@ -576,6 +576,16 @@
 		)
 		(uuid "c4e28e4f-5d42-4cbb-b88c-da710ea6b03e")
 	)
+	(label "VBATRAW"
+		(at 57.15 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e907376d-7454-4b99-859f-69ba9942d06f")
+	)
 	(label "VBAT"
 		(at 68.58 21.59 0)
 		(effects
