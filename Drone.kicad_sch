@@ -965,6 +965,12 @@
 		(color 0 0 0 0)
 		(uuid "b986dbcf-25ef-4c6f-9dc4-131d213d88b0")
 	)
+	(junction
+		(at 77.47 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bf3572bf-5602-4c6a-a8b4-c164ad7ab5ee")
+	)
 	(wire
 		(pts
 			(xy 57.15 26.67) (xy 71.12 26.67)
@@ -974,6 +980,16 @@
 			(type default)
 		)
 		(uuid "0a395398-a650-4977-b876-ce6036afb2a6")
+	)
+	(wire
+		(pts
+			(xy 77.47 30.48) (xy 77.47 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a7249a1-cdc1-464a-a07e-46560e46f287")
 	)
 	(wire
 		(pts
@@ -987,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 22.86) (xy 77.47 34.29)
+			(xy 77.47 22.86) (xy 77.47 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1063,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
-		(at 82.55 22.86 0)
+		(at 77.47 25.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1058,29 +1074,27 @@
 		(fields_autoplaced yes)
 		(uuid "2a04abcc-8e4a-4966-8190-b22d0089c8a4")
 		(property "Reference" "Q1"
-			(at 88.9 21.5899 0)
+			(at 77.47 16.51 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "PMOS"
-			(at 88.9 24.1299 0)
+			(at 77.47 19.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 20.32 0)
+			(at 74.93 20.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1091,7 +1105,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 82.55 35.56 0)
+			(at 90.17 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1102,7 +1116,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, drain/source/gate"
-			(at 82.55 22.86 0)
+			(at 77.47 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1113,7 +1127,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 82.55 40.005 0)
+			(at 94.615 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1124,7 +1138,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 82.55 41.91 0)
+			(at 96.52 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1135,7 +1149,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 82.55 38.1 0)
+			(at 92.71 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
