@@ -1273,6 +1273,88 @@
 		(uuid "f82dcba3-bbef-4450-a73d-4afcf66bb945")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 139.7 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "190704a5-be21-4d6a-8485-5b591725b878")
+		(property "Reference" "C3"
+			(at 143.51 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 143.51 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.6652 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 139.7 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e52501c-53e9-482e-8b94-251cd530fd30")
+		)
+		(pin "1"
+			(uuid "85285627-1e45-4d9f-b30e-201a9bc57550")
+		)
+		(instances
+			(project "Drone"
+				(path "/18261dce-9a7d-4b7b-a6b7-57a5a7c58be0"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 77.47 25.4 90)
 		(unit 1)
@@ -1568,6 +1650,88 @@
 			(project "Drone"
 				(path "/18261dce-9a7d-4b7b-a6b7-57a5a7c58be0"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50dbbfd0-e5c6-463d-843f-e5cb2a20bbe4")
+		(property "Reference" "C2"
+			(at 129.54 33.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 129.54 35.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.6952 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0e04de01-1e31-4299-9ea8-c2e41798b24a")
+		)
+		(pin "1"
+			(uuid "57a2d8f3-7686-466c-b4aa-ec4e50c75db4")
+		)
+		(instances
+			(project "Drone"
+				(path "/18261dce-9a7d-4b7b-a6b7-57a5a7c58be0"
+					(reference "C2")
 					(unit 1)
 				)
 			)
