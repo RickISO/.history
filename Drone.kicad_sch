@@ -1139,12 +1139,6 @@
 		(uuid "773c808b-6c88-4d34-a432-62077d7ed998")
 	)
 	(junction
-		(at 109.22 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94eba2f2-d395-4636-9423-8ce0797935e5")
-	)
-	(junction
 		(at 71.12 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1159,16 +1153,6 @@
 			(type default)
 		)
 		(uuid "0a395398-a650-4977-b876-ce6036afb2a6")
-	)
-	(wire
-		(pts
-			(xy 106.68 21.59) (xy 106.68 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16afc80f-f11e-46c1-945e-09d3a28be0c3")
 	)
 	(wire
 		(pts
@@ -1219,16 +1203,6 @@
 			(type default)
 		)
 		(uuid "423ed157-755b-48b7-b79b-e2fd3bf1aaf8")
-	)
-	(wire
-		(pts
-			(xy 106.68 30.48) (xy 109.22 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6452e870-c406-45ab-b67f-28dee76c29b2")
 	)
 	(wire
 		(pts
@@ -1341,7 +1315,7 @@
 		(uuid "e907376d-7454-4b99-859f-69ba9942d06f")
 	)
 	(label "VBATSW"
-		(at 97.79 24.13 0)
+		(at 109.22 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
