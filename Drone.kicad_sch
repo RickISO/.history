@@ -1075,6 +1075,16 @@
 		)
 		(uuid "e907376d-7454-4b99-859f-69ba9942d06f")
 	)
+	(label "VBATSW"
+		(at 97.79 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f82dcba3-bbef-4450-a73d-4afcf66bb945")
+	)
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 77.47 25.4 90)
